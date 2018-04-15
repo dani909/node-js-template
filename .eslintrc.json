@@ -1,0 +1,27 @@
+{
+    "extends": "./node_modules/eslint-config-google/index.js",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "parser": "typescript-eslint-parser",
+    "rules": {
+        "require-jsdoc": [
+            "error",
+            {
+                "require": {
+                    "FunctionDeclaration": false,
+                    "MethodDefinition": false,
+                    "ClassDeclaration": false,
+                    "ArrowFunctionExpression": false,
+                    "FunctionExpression": false
+                }
+            }
+        ],
+        "max-len": [
+            2,
+            160,
+            4
+        ]
+    }
+}
