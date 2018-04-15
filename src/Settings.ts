@@ -5,10 +5,10 @@ export default class Settings {
     name: string;
     httpPort: number;
     httpsPort: number;
-    httpsEnabled: boolean;
     privateKeyPath: string;
     certificatePath: string;
     dbUrl: string;
+    dbName: string;
 
     static loadSettings = function(useDefault: boolean, settingName: string, path: string): Settings {
         let json = fs.readFileSync(path, 'utf8');
