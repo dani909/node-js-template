@@ -1,0 +1,23 @@
+{
+    "standartSetting": "release",
+    "settings": [
+        {
+            "name": "release",
+            "httpPort": 80,
+            "httpsPort": 443,
+            "httpsEnabled": true,
+            "privateKeyPath": "path/to/private/key",
+            "certificatePath": "path/to/certificate",
+            "dbUrl": "mongodb://database.example.com:27017"
+        },
+        {
+            "name": "dev",
+            "httpPort": 8080,
+            "httpsPort": 0,
+            "httpsEnabled": false,
+            "privateKeyPath": "",
+            "certificatePath": "",
+            "dbUrl": "mongodb://devdatabase.example.com:27017"
+        }
+    ]
+}
