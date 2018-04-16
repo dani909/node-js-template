@@ -42,7 +42,7 @@ mongodb.MongoClient.connect(settings.dbUrl, (err, client) => {
 
     // TODO add middlewares if needede here
 
-    mainController(app, db);
+    mainController(app, db, settings);
 
     // Start HTTP Server
     if (!settings.httpPort) {
