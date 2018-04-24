@@ -1,4 +1,4 @@
-FROM hypriot/rpi-node
+FROM hypriot/rpi-node:slim
 
 WORKDIR /usr/src/app
 
