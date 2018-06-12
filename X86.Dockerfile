@@ -14,7 +14,7 @@ COPY tsconfig.json tsconfig.json
 
 RUN ./node_modules/.bin/tsc
 
-EXPOSE 8090
-EXPOSE 1446
+EXPOSE 443
+EXPOSE 80
 
 ENTRYPOINT [ "npm", "start" ]
