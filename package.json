@@ -15,7 +15,7 @@
     "url": "git+https://github.com/dani909/node-js-template.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dani909/node-js-template/issues"
   },
