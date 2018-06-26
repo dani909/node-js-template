@@ -30,7 +30,7 @@
     "typescript": "^2.9.2"
   },
   "devDependencies": {
-    "@types/jest": "^23.1.1",
+    "@types/jest": "^23.1.2",
     "eslint": "^5.0.1",
     "eslint-config-google": "^0.9.1",
     "jest": "^23.2.0",
