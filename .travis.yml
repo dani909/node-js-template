@@ -6,6 +6,20 @@ node_js:
   - "10"
   - "node"
 
+jobs:
+  include:
+    - script: "bash build_docker_ci.sh"
+      services:
+        - docker
+      sudo : required
+      node_js: ""
+      language: bash
+      name: "Docker build"
+      cache: 
+        directories:
+          - "not_existing_folder"
+
+
 cache:
   directories:
     - "node_modules"
