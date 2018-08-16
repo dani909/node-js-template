@@ -14,7 +14,20 @@ jobs:
       sudo : required
       node_js: ""
       language: bash
-      name: "Docker build"
+      name: "Docker RPI build"
+      env: IMAGE=RPI
+      cache: 
+        directories:
+          - "not_existing_folder"
+    
+    - script: "bash build_docker_ci.sh"
+      services:
+        - docker
+      sudo : required
+      node_js: ""
+      language: bash
+      name: "Docker X86/X64 build"
+      env: IMAGE=X86
       cache: 
         directories:
           - "not_existing_folder"
