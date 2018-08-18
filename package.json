@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@types/jest": "^23.3.1",
-    "eslint": "^5.3.0",
+    "eslint": "^5.4.0",
     "eslint-config-google": "^0.9.1",
     "jest": "^23.5.0",
     "ts-jest": "^23.1.3",
