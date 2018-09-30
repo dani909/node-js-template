@@ -35,6 +35,6 @@
     "eslint-config-google": "^0.10.0",
     "jest": "^23.6.0",
     "ts-jest": "^23.10.2",
-    "typescript-eslint-parser": "^19.0.1"
+    "typescript-eslint-parser": "^19.0.2"
   }
 }
