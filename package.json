@@ -27,7 +27,7 @@
     "@types/mongodb": "^3.1.15",
     "express": "^4.16.4",
     "mongodb": "^3.1.10",
-    "typescript": "^3.1.6"
+    "typescript": "^3.2.1"
   },
   "devDependencies": {
     "@types/jest": "^23.3.10",
