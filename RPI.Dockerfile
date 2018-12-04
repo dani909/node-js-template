@@ -1,4 +1,4 @@
-FROM dani09/rpi-node:9.11.1
+FROM dani09/rpi-node:10.14
 
 WORKDIR /usr/src/app
 
